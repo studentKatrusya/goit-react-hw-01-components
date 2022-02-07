@@ -4,7 +4,7 @@ function Profile({ avatar, username, tag, location, stats }) {
   return (
     <div className={s.profile}>
       <div className={s.description}>
-        <img src={avatar} alt="User avatar" className={s.avatar} />
+        <img src={avatar} alt={username} className={s.avatar} />
         <p className={s.name}>{username}</p>
         <p className={s.tag}>{tag}</p>
         <p className={s.location}>{location}</p>
