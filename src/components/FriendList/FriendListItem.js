@@ -15,7 +15,7 @@ function FriendListItem({ avatar, status, name }) {
       >
         {status}
       </div>
-      <img className={s.avatar} src={avatar} alt="User avatar" width="48" />
+      <img className={s.avatar} src={avatar} alt={name} width="48" />
       <p className={s.name}>{name}</p>
     </li>
   );
